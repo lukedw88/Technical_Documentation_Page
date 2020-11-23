@@ -1,0 +1,202 @@
+<html>
+    <head>
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        body {
+          font-family: Arial;
+          padding: 10px;
+          background: #f1f1f1;
+        }
+
+        /* Header/Blog Title */
+        .header {
+          padding: 30px;
+          text-align: center;
+          background: white;
+        }
+
+        .header h1 {
+          font-size: 30px;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+          float: left;
+          width: 25%;
+        }
+
+        /* Right column */
+        .rightcolumn {
+          float: right;
+          width: 75%;
+          background-color: #f1f1f1;
+          padding-left: 20px;
+        }
+
+        /* Fake image */
+        .fakeimg {
+          background-color: #aaa;
+          width: 100%;
+          padding: 20px;
+        }
+
+        /* Add a card effect for articles */
+        .card {
+          background-color: white;
+          padding: 20px;
+          margin-top: 20px;
+
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        /* Footer */
+        .footer {
+          padding: 20px;
+          text-align: center;
+          background: #ddd;
+          margin-top: 20px;
+        }
+        #navbar {
+          overflow: hidden;
+          background-color: #333;
+          position: fixed;
+          top: 0;
+          width: 18%;
+          height: 100%;
+          border-right: solid;
+        }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+          .leftcolumn, .rightcolumn {
+            width: 100%;
+            padding: 0;
+          }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+          .topnav a {
+            float: none;
+            width: 100%;
+          }
+        }
+      </style>
+    </head>
+  <body>
+    <nav class="topnav" id="navbar">
+      <header>
+        <a href="#Choosing_a_College" class="nav-link">
+          Choosing a College
+        </a>
+        <a href="#Narrow_Your_Focus" class="nav-link">
+          Narrow Your Focus
+        </a>
+        <a href="#Think_About_Finances" class="nav-link">
+          Think About Finances
+        </a>
+        <a href="#Lets_Talk_Majors" class="nav-link">
+          Lets Talk Majors
+        </a>
+        <a href="#Working_on_Applications" class="nav-link">
+          Working on Applications
+        </a>
+      </header>
+
+    </nav>
+
+    <div class="row">
+      <div class="leftcolumn">
+
+      </div>
+      <div class="rightcolumn">
+        <div class="header">
+          <h1>How to Choose a College</h1>
+        </div>
+        <main id="main-doc">
+        <div class="card">
+          <section class="main-section" id="Choosing_a_College">
+          <header>Choosing a College</header>
+          <code>Choice is all about finding the right fit for you</code>
+          <ol>
+            <li>Who are you?</li>
+            <li>What do you want to study?</li>
+            <li>When do you want to study?</li>
+            <li>Where do you want to study?</li>
+            <li>Why do you want to study?</li>
+          </ol>
+          <p>Its best to think about choosing a college that is right for you not by the selectivity of the college but how all the aspects of the school fit right for you as a whole person</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+      </section>
+        <div class="card">
+          <section class="main-section" id="Narrow_Your_Focus">
+          <header>Narrow Your Focus</header>
+          <code>When researching colleges its a good idea to break down the school into bite size pieces. Location is a good piece to investigate</code>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+      </section>
+        <div class="card">
+          <section class="main-section" id="Think_About_Finances">
+          <header>Think About Finances</header>
+          <code>Money</code>
+          <p>Lets face it, going to college costs money. Sometimes it can cost too much. Thankfully, if you spend a good deal of time researching there are many ways to make college more affordable and make decisions that protect your financial future.</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+      </section>
+        <div class="card">
+          <section class="main-section" id="Lets_Talk_Majors">
+          <header>Lets Talk Majors</header>
+          <code>What are you going to study?</code>
+          <p>Picking a major is an important step in the college planning process, but its also important to not overthink it. Plenty of college students change their major and no student should feel trapped or obligated to stick with something they don't feel passionate about</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+      </section>
+        <div class="card">
+          <section class="main-section" id="Working_on_Applications">
+          <header>Working on Applications</header>
+          <code>Lets get to work</code>
+          <p>Filling out applications may seem like a daunting or overwhelming task. </p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+      </section>
+      </main>
+
+      </div>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
